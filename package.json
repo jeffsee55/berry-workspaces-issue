@@ -19,6 +19,7 @@
     "generate-config": "ts-node ./src/generateConfig.ts"
   },
   "devDependencies": {
+    "@arcanis/sherlock": "^1.0.38",
     "@aws-cdk/core": "*",
     "@types/aws-lambda": "^8.10.33",
     "@types/node": "^12.11.2",
