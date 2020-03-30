@@ -1,10 +1,6 @@
 {
-  "name": "jeff-cdk-example-workspaces",
+  "name": "jeff-cdk-example",
   "version": "0.1.1",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "ts-node": "ts-node",
     "tsc": "tsc",
@@ -36,7 +32,6 @@
     "@aws-cdk/aws-sam": "*",
     "@aws-cdk/core": "*",
     "aws-sdk": "*",
-    "source-map-support": "^0.5.13",
-    "workspace": "^0.0.1-preview.1"
+    "source-map-support": "^0.5.13"
   }
 }

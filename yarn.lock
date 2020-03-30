@@ -937,31 +937,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jeffs/test@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@jeffs/test@workspace:."
-  dependencies:
-    "@aws-cdk/aws-apigateway": "*"
-    "@aws-cdk/aws-cloudfront": "*"
-    "@aws-cdk/aws-cognito": "*"
-    "@aws-cdk/aws-dynamodb": "*"
-    "@aws-cdk/aws-lambda": "*"
-    "@aws-cdk/aws-s3": "*"
-    "@aws-cdk/aws-sam": "*"
-    "@aws-cdk/core": "*"
-    "@types/aws-lambda": ^8.10.33
-    "@types/node": ^12.11.2
-    aws-cdk: "*"
-    aws-sdk: "*"
-    source-map-support: ^0.5.13
-    ts-node: ^8.4.1
-    typescript: ^3.7.2
-  dependenciesMeta:
-    "@aws-cdk/core":
-      unplugged: true
-  languageName: unknown
-  linkType: soft
-
 "@types/aws-lambda@npm:^8.10.33":
   version: 8.10.46
   resolution: "@types/aws-lambda@npm:8.10.46"
@@ -1839,6 +1814,51 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jeff-cdk-example-workspaces@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "jeff-cdk-example-workspaces@workspace:."
+  dependencies:
+    "@aws-cdk/aws-apigateway": "*"
+    "@aws-cdk/aws-cloudfront": "*"
+    "@aws-cdk/aws-cognito": "*"
+    "@aws-cdk/aws-dynamodb": "*"
+    "@aws-cdk/aws-lambda": "*"
+    "@aws-cdk/aws-s3": "*"
+    "@aws-cdk/aws-sam": "*"
+    "@aws-cdk/core": "*"
+    "@types/aws-lambda": ^8.10.33
+    "@types/node": ^12.11.2
+    aws-cdk: "*"
+    aws-sdk: "*"
+    source-map-support: ^0.5.13
+    ts-node: ^8.4.1
+    typescript: ^3.7.2
+    workspace: ^0.0.1-preview.1
+  languageName: unknown
+  linkType: soft
+
+"jeff-cdk-example@workspace:packages/cdk-example":
+  version: 0.0.0-use.local
+  resolution: "jeff-cdk-example@workspace:packages/cdk-example"
+  dependencies:
+    "@aws-cdk/aws-apigateway": "*"
+    "@aws-cdk/aws-cloudfront": "*"
+    "@aws-cdk/aws-cognito": "*"
+    "@aws-cdk/aws-dynamodb": "*"
+    "@aws-cdk/aws-lambda": "*"
+    "@aws-cdk/aws-s3": "*"
+    "@aws-cdk/aws-sam": "*"
+    "@aws-cdk/core": "*"
+    "@types/aws-lambda": ^8.10.33
+    "@types/node": ^12.11.2
+    aws-cdk: "*"
+    aws-sdk: "*"
+    source-map-support: ^0.5.13
+    ts-node: ^8.4.1
+    typescript: ^3.7.2
+  languageName: unknown
+  linkType: soft
+
 "jmespath@npm:0.15.0":
   version: 0.15.0
   resolution: "jmespath@npm:0.15.0"
@@ -2607,6 +2627,13 @@ typescript@^3.7.2:
   version: 1.0.0
   resolution: "wordwrap@npm:1.0.0"
   checksum: 2/b4f3f8104a727d1b08e77f43f3692977146f13074392747a3d9cfd631d0fc3ff1c0c034d44fcd7a22183c6505d2fc305421e3512671f8a56f903055671ace4ce
+  languageName: node
+  linkType: hard
+
+"workspace@npm:^0.0.1-preview.1":
+  version: 0.0.1-preview.1
+  resolution: "workspace@npm:0.0.1-preview.1"
+  checksum: 2/9b1e5944c5535586b680239c7751bea8cff250a2f131524372a029ac7c99ffb7177888c2f6a1259d09f0f560165905841b24fb2da7f65d785bbf22f49a965433
   languageName: node
   linkType: hard
 
